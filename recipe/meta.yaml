@@ -1,5 +1,5 @@
 {% set name = "pytest-monitor" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 30e73c5831ae13268f6f76dc4352a2c5970d244ce77d5c1b153e3475d1e0fda7
+  sha256: 420dc86f35be3545bbf2de17073b676f8f42a5905187709647ad9007b5901480
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install --no-deps  . -vv"
+  script: {{ PYTHON }} -m pip install --no-deps  . -vv
 
 requirements:
   host:
@@ -34,12 +34,12 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Pytest plugin to analyze your resource consumption during test phase.'
+  summary: Pytest plugin to analyze your resource consumption during test phase.
 
   description: |
-     Pytest-monitor is a pytest plugin written in pure python. It helps in 
-     analyzing how your program behaves in terms of resource usage (depending on your code changes or dependencies's).
-     It requires pytest, psutil and memory_profiler. Works with python 3.5+.
+    Pytest-monitor is a pytest plugin written in pure python. It helps in 
+    analyzing how your program behaves in terms of resource usage (depending on your code changes or dependencies's).
+    It requires pytest, psutil and memory_profiler. Works with python 3.5+.
   doc_url: https://pytest-monitor.readthedocs.io/
   dev_url: https://github.com/CFMTech/pytest-monitor
 
