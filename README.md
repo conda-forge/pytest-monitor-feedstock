@@ -5,9 +5,13 @@ Home: https://github.com/CFMTech/pytest-monitor
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-monitor-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pytest plugin to analyze your resource consumption during test phase.
+
+Development: https://github.com/CFMTech/pytest-monitor
+
+Documentation: https://pytest-monitor.readthedocs.io/
 
 Pytest-monitor is a pytest plugin written in pure python. It helps in
 analyzing how your program behaves in terms of resource usage (depending on your code changes or dependencies's).

@@ -1,5 +1,5 @@
 {% set name = "pytest-monitor" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f62ad8246dc484ef21091b0da468831d815c6b0ecafeeacda4fa5d2b8328cfab
+  sha256: a360bef0b6549cc6cb1ff832175d9dbbb2d431ff73045649b48189d5fe651a98
 
 build:
   number: 0
@@ -21,8 +21,8 @@ requirements:
   run:
     - python >=3.6
     - pytest
-    - memory_profiler
-    - psutil
+    - memory_profiler >=0.58.0
+    - psutil >=5.1.0
     - requests
 
 test:
