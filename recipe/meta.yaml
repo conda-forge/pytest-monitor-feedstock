@@ -21,8 +21,8 @@ requirements:
   run:
     - python >=3.6
     - pytest
-    - memory_profiler
-    - psutil
+    - memory_profiler >=0.58.0
+    - psutil >=5.1.0
     - requests
 
 test:
