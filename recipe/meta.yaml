@@ -1,5 +1,5 @@
 {% set name = "pytest-monitor" %}
-{% set version = "1.6.1" %}
+{% set version = "1.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 53193ab1bec5ae01f322968ca67f86ee5ee13c07dd25bdd1ca56e234e8b78193
+  sha256: 1e602fa48e0decdd6f05ad1cb3a18936c80294a013c998729d27d7fe3a71c331
 
 build:
   number: 0
