@@ -1,11 +1,11 @@
-About pytest-monitor
-====================
+About pytest-monitor-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-monitor-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/CFMTech/pytest-monitor
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-monitor-feedstock/blob/main/LICENSE.txt)
 
 Summary: Pytest plugin to analyze your resource consumption during test phase.
 
